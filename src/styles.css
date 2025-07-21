@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../public/sky-with-cloud.jpg);
+  background-size: calc(100% ) calc(100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-image: linear-gradient(to bottom, #b9d8ec 50%, #435974 50%); */
+}
+
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+}
